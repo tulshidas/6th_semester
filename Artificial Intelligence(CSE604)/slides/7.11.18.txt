@@ -1,0 +1,4 @@
+Evaluation of machine learning (classification )result
+n*m fold using training data.
+accuracy is not good measurement
+Precision and recall

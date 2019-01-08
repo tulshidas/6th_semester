@@ -1,0 +1,46 @@
+# git init  // initialize a repository 
+# git config --global user.name "username" // create username --global na dileo hoi
+# git config --global user.email "email here" // add the email
+# git config --global  user.name// show the username
+# git config --global  user.email // show the email
+# notepad <file name> //open a file to notepad
+# touch <file name> // create a file
+# git status // to show the status of repository
+# git add <file name> // add a unstaged file
+# git add .  // add all untracked/unstaged file 
+# git commit -m "commit message here"// make a commit
+# git branch <branch name here> // create a branch locally
+# git branch // show the branches
+# git checkout <branch name> // switch to another branch
+# ls -a // show the directory and files
+# git merge <branch name> // merge the branch to master branch
+# git remote add origin https://github.com/tulshidas/test.git //here test is the name of repository, it add the repository with local
+#git push -u origin master //it push
+#git push origin <anothre branch name> //push the files from this branch after add,commit
+#git branch -D <branch name>
+#git add *.html // add all html files
+#git rm <file name> //delete a file
+#git log // show the logs of changes
+#git mv <file name> <new name> // rename a file
+#git mv <file name> <path> // move the file to the path
+#git remote -v // show the remote link
+#git clone <clonining url of repository> // reposity link er sathe .git lagalei cloning url hoie jai. eta korle remote repository local e download hoi.
+#git remote update //get status of change in remote. to see I should use git status command.
+#git pull origin master // this will pull the changes to local repository
+##git fetch origin // git remote update command er motoi kaj kore
+
+.........LFS commands............
+Git LFS commands(after creating and config git reposotory):
+#git lfs track '*.file_type' // it will track all files of this file type,we can set the path like 'image/*.psd' to set file inside a folder
+#git lfs tr lack // will show the tracked/managed files
+#git add . // will add all tracked file
+#git commint -m "commit message here" // will commit the tracking files
+#git lfs ls-files // show the list of tracked files
+#touch <file name> // create a file
+
+
+
+.........UNIX commands........
+#pwd //show the current directory
+#ls dile current files and folders gula dekhai
+#cd <directory name> // change directory

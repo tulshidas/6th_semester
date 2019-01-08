@@ -1,0 +1,21 @@
+iit,it,SE,software engineering,institute of information technology,information technology|iit
+degree,degrees|degree
+offer,offering,offered,offers,provide,provides,give,gives,rerender,renders,proffer,proffers,propose,proposes|offer
+bachelors|bachelor
+mean,means,meaning,signify,refer,intend,entail,matter,presage,think,think of,imply|mean
+establish,establishes,established,build,built,construct,constructed,found,founded|establish
+start,started,begin,began,begun,initiate,initiated,commence|start
+building,construction,edifice|building
+director,head,principal|director
+admit,admission|admit
+read,study|read
+reason,cause,goal|reason
+mission,objective,purpose,goal,journey|mission
+vision,view,perspective|vision
+say,tell,told,saying,said|say
+information,knowledge,data,info|information
+course,subject,class,program|course
+teach,taught,train,trained,learn,learned|teach
+list,document,schedule|list
+contact,communication,connection|contact
+take,receive,accept,accepted,taking,took,taking,receiving,retake,received|take

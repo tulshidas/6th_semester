@@ -1,0 +1,5 @@
+lab syllabus:
+1.Aglets
+2.UDP,TCP
+3.RMI/ java package
+4.Hadoop

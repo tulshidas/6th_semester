@@ -1,0 +1,206 @@
+{
+  "id": "7b0f925d-bcc8-4bc4-806e-f9f216d5d30c",
+  "version": "1.1",
+  "name": "bkash",
+  "url": "https://www.bkash.com",
+  "tests": [{
+    "id": "ead38988-f695-47f9-bfdc-270d735fe5bd",
+    "name": "bkash",
+    "commands": [{
+      "id": "f2aabb4f-e62f-4bfe-9a6a-6625459f5ed0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e071fca5-3be3-4228-b99e-9d2957da0c3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2413f31d-363b-4d07-9d8e-e7ad0f0b7ebd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn More",
+      "targets": [
+        ["linkText=Learn More", "linkText"],
+        ["css=h3.ei-learn-more > a", "css"],
+        ["css=li:nth-child(1) > .ei-title a", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn More')]", "xpath:link"],
+        ["xpath=//div[@id='ei-slider']/ul/li/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bkash.com/app')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2ad977-9ce3-439a-96bd-92480a8e8258",
+      "comment": "",
+      "command": "click",
+      "target": "css=img[alt=\"apple store\"]",
+      "targets": [
+        ["css=img[alt=\"apple store\"]", "css"],
+        ["css=.animated:nth-child(3) a:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='apple store']", "xpath:img"],
+        ["xpath=//section[@id='slider-area']/div[2]/div/div/div/div/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b74f5fa0-28ff-48d1-a16d-d1e96e89754d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f200c7ca-3662-4265-9782-50a5230d0177",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=bKash Limited",
+      "targets": [
+        ["linkText=bKash Limited", "linkText"],
+        ["css=a.link", "css"],
+        ["css=.product-header__identity > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'bKash Limited')]", "xpath:link"],
+        ["xpath=//div[@id='ember97']/section/div/div[2]/header/h2[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://itunes.apple.com/us/developer/bkash-limited/id1351183171?mt=8')]", "xpath:href"],
+        ["xpath=//h2[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2065919e-d30c-4add-9808-6d96f4fa9527",
+      "comment": "",
+      "command": "click",
+      "target": "css=img[alt=\"Free Download\"]",
+      "targets": [
+        ["css=img[alt=\"Free Download\"]", "css"],
+        ["css=a:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='Free Download']", "xpath:img"],
+        ["xpath=//div[@id='itunes-client-required']/div/div[2]/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ec8fbc2-2840-41dd-a2b5-2fc94344b6d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download now (64-bit)",
+      "targets": [
+        ["linkText=Download now (64-bit)", "linkText"],
+        ["css=a.button.button-download", "css"],
+        ["css=.button-download", "css:finder"],
+        ["xpath=//a[contains(text(),'Download now (64-bit)')]", "xpath:link"],
+        ["xpath=//section[@id='section-windows']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/itunes/download/win64')]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48713300-f6cf-4b9e-b3e3-5ab8bd1e1ff9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Support",
+      "targets": [
+        ["linkText=Support", "linkText"],
+        ["css=a.ac-gn-link.ac-gn-link-support", "css"],
+        ["css=.ac-gn-link-support", "css:finder"],
+        ["xpath=//nav[@id='ac-globalnav']/div/ul[2]/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://support.apple.com')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f713a52-636a-43d2-8b23-191ef00c670b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ac-gn-firstfocus",
+      "targets": [
+        ["id=ac-gn-firstfocus", "id"],
+        ["linkText=Apple", "linkText"],
+        ["css=#ac-gn-firstfocus", "css"],
+        ["css=#ac-gn-firstfocus", "css:finder"],
+        ["xpath=//a[@id='ac-gn-firstfocus']", "xpath:attributes"],
+        ["xpath=//nav[@id='ac-globalnav']/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.apple.com')])[3]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59145440-8fee-44aa-85c5-5410dd7f51fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=ac-gn-link-search",
+      "targets": [
+        ["id=ac-gn-link-search", "id"],
+        ["css=#ac-gn-link-search", "css"],
+        ["css=#ac-gn-link-search", "css:finder"],
+        ["xpath=//a[@id='ac-gn-link-search']", "xpath:attributes"],
+        ["xpath=//nav[@id='ac-globalnav']/div/ul[2]/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/us/search')])[2]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c83f65-1451-4a63-a445-a99ab8897b1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ac-gn-searchform-input",
+      "targets": [
+        ["id=ac-gn-searchform-input", "id"],
+        ["css=#ac-gn-searchform-input", "css"],
+        ["css=#ac-gn-searchform-input", "css:finder"],
+        ["xpath=//input[@id='ac-gn-searchform-input']", "xpath:attributes"],
+        ["xpath=//form[@id='ac-gn-searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "888d037d-86e9-480a-bd7a-b814677e3403",
+      "comment": "",
+      "command": "submit",
+      "target": "id=ac-gn-searchform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d11f2764-0593-49cc-9240-a660fa23e20a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a.unit-link",
+      "targets": [
+        ["css=a.unit-link", "css"],
+        ["css=.hero-iphone-xs .unit-link", "css:finder"],
+        ["xpath=//a[contains(@href, '/iphone-xs/')]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17bab66b-c86a-4ed7-a956-5b0b3e262175",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=https://www.apple.com/apple-watch-series-4/connect/",
+      "targets": [
+        ["linkText=https://www.apple.com/apple-watch-series-4/connect/", "linkText"],
+        ["css=p.as-link > a", "css"],
+        ["css=.position-1 a", "css:finder"],
+        ["xpath=//a[contains(text(),'https://www.apple.com/apple-watch-series-4/connect/')]", "xpath:link"],
+        ["xpath=//div[@id='exploreOrganic']/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.apple.com/apple-watch-series-4/connect/')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "343f069b-969f-4fc4-a8ea-9dd64c1790ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ead38988-f695-47f9-bfdc-270d735fe5bd"]
+  }],
+  "urls": ["https://www.bkash.com/"],
+  "plugins": []
+}

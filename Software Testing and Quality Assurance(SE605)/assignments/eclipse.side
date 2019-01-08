@@ -1,0 +1,228 @@
+{
+  "id": "bcf5a8ea-a048-40c6-b0c2-7f07e6038f77",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://www.eclipse.org",
+  "tests": [{
+    "id": "500d0e6c-0a1a-4b19-880e-326264531cdb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "39bcbfda-e1c1-48db-ac8a-5f6224f95297",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb31ae35-d664-4c7f-a0d2-1dbd9863f4db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=a.toolbar-link", "css"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//header[@id='header-wrapper']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.eclipse.org/user/login/?takemeback=https%3A%2F%2Fwww.eclipse.org%2F')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79f884e-2baa-4c5b-a8e2-296b775d8876",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-name",
+      "targets": [
+        ["id=edit-name", "id"],
+        ["name=name", "name"],
+        ["css=#edit-name", "css"],
+        ["xpath=//input[@id='edit-name']", "xpath:attributes"],
+        ["xpath=//form[@id='user-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "062a48d2-8e42-46e3-9060-bc6cb6d32550",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-name",
+      "targets": [
+        ["id=edit-name", "id"],
+        ["name=name", "name"],
+        ["css=#edit-name", "css"],
+        ["xpath=//input[@id='edit-name']", "xpath:attributes"],
+        ["xpath=//form[@id='user-login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tulshidas37@gmail.com"
+    }, {
+      "id": "92ca4bda-4f12-46fa-90b6-83acbe305955",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-pass",
+      "targets": [
+        ["id=edit-pass", "id"],
+        ["name=pass", "name"],
+        ["css=#edit-pass", "css"],
+        ["xpath=//input[@id='edit-pass']", "xpath:attributes"],
+        ["xpath=//form[@id='user-login']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "tldeclipse123"
+    }, {
+      "id": "f32b8d9b-c9d0-49d0-9e72-7a5036b3ccde",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-submit",
+      "targets": [
+        ["id=edit-submit", "id"],
+        ["name=op", "name"],
+        ["css=#edit-submit", "css"],
+        ["xpath=//button[@id='edit-submit']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-actions']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "731abef5-0c6e-411e-ab78-ed71a2b99baf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//div[@id='btn-call-for-action']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/downloads/')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62748c78-5950-4e39-8d1c-025e58b27046",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-main-menu']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7308317b-3e8a-48a2-9a21-2b772c1841b0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='novaContent']/div/div/div/div",
+      "targets": [
+        ["xpath=//div[@id='novaContent']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4051541a-7727-45d5-8ffa-1a657710ad25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=a.toolbar-link", "css"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//header[@id='header-wrapper']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.eclipse.org/user/login/?takemeback=https%3A%2F%2Fwww.eclipse.org%2F')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4754adb-d777-44e9-bce7-aab37df1ae7b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section[@id='block-system-main']/div/div/div/div/div",
+      "targets": [
+        ["xpath=//section[@id='block-system-main']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/section/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "302d1858-1374-44e4-9abb-21d3e4548d18",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,131)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a545f02-b8d3-4aaa-b93c-3fcce0018efa",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-keys",
+      "targets": [
+        ["id=edit-keys", "id"],
+        ["name=keys", "name"],
+        ["css=#edit-keys", "css"],
+        ["xpath=//input[@id='edit-keys']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-basic']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0eb82ee-0902-4103-9011-29893b41c8e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-keys",
+      "targets": [
+        ["id=edit-keys", "id"],
+        ["name=keys", "name"],
+        ["css=#edit-keys", "css"],
+        ["xpath=//input[@id='edit-keys']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-basic']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "eclipse neon"
+    }, {
+      "id": "21135dc4-2dd0-4e05-93e0-de9887bc9fda",
+      "comment": "",
+      "command": "submit",
+      "target": "id=search-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d046f3a7-bf66-489a-99b7-cf99724a8d6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenu",
+      "targets": [
+        ["id=dropdownMenu", "id"],
+        ["linkText=Welcome, tdas4ns", "linkText"],
+        ["css=#dropdownMenu", "css"],
+        ["xpath=//a[contains(text(),'Welcome, tdas4ns')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenu']", "xpath:attributes"],
+        ["xpath=//section[@id='block-site-login-site-login-toolbar']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d8f39e-aca2-47ac-a9d6-418c2f2974a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//section[@id='block-site-login-site-login-toolbar']/div/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.eclipse.org/user/logout?destination=search/profile/eclipse%20neon')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a2774a24-633a-4983-bd65-2a3cc3e69650",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["500d0e6c-0a1a-4b19-880e-326264531cdb"]
+  }],
+  "urls": ["https://www.eclipse.org/"],
+  "plugins": []
+}

@@ -1,0 +1,137 @@
+{
+  "id": "15264ddc-0be0-4c64-b57b-4ce720617182",
+  "version": "1.1",
+  "name": "virtual_judge",
+  "url": "https://vjudge.net/",
+  "tests": [{
+    "id": "9bba70b1-fd06-470f-b456-47b09782278e",
+    "name": "test1",
+    "commands": [{
+      "id": "00454ddb-4c7d-4244-ae2e-926ca6c3810e",
+      "comment": "",
+      "command": "open",
+      "target": "https://vjudge.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae19f804-8014-4b33-a2ce-1323bc20ace7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=a.nav-link.login", "css"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarResponsive']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59720c84-662e-4b6f-94d5-5f436103fb98",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fe4537b-3071-47be-9a3d-4d623958bdda",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "tulshidas1"
+    }, {
+      "id": "62ecf9db-070f-4df5-93ed-1372dc37aa67",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["css=#login-password", "css"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "tldvertual"
+    }, {
+      "id": "401af9fb-56ea-4786-bd3b-9fb06ddecf76",
+      "comment": "",
+      "command": "submit",
+      "target": "id=login-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96986ada-efbb-4bbd-a6f7-f3c04b17c063",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Status",
+      "targets": [
+        ["linkText=Status", "linkText"],
+        ["css=#nav-status > a.nav-link", "css"],
+        ["css=#nav-status > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Status')]", "xpath:link"],
+        ["xpath=//li[@id='nav-status']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/status')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44229f86-5d46-41a8-8a35-72fd8fc55157",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contest",
+      "targets": [
+        ["linkText=Contest", "linkText"],
+        ["css=#nav-contest > a.nav-link", "css"],
+        ["css=#nav-contest > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Contest')]", "xpath:link"],
+        ["xpath=//li[@id='nav-contest']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contest')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80d1bccc-56d4-46df-b811-17cc05e6659f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link.logout", "css"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarResponsive']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "163da896-7243-4f2a-b539-bb05b3753a1e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9bba70b1-fd06-470f-b456-47b09782278e"]
+  }],
+  "urls": ["https://vjudge.net/"],
+  "plugins": []
+}

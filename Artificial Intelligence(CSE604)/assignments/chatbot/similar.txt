@@ -1,0 +1,78 @@
+Dr. Md. Shariful Islam|MSI
+Dr. Zerina Begum
+Mohd. Zulfiquar Hafiz|MZH
+Md. Mahbubul Alam Joarder|MAJ
+Dr. Kazi Muheymin-Us-Sakib|KMS
+Dr. Mohammad Shoyaib|MS
+Dr. Mohammed Shafiul Alam Khan|MSAK
+Dr. B M Mainul Hossain|BMH
+Shah Mostafa Khaled|SMK
+Dr. Naushin Nower|NN
+Sumon Ahmed|SA
+Rezvi Shahariar|RS
+Dr. Ahmedul Kabir|AK
+Md. Nurul Ahad Tawhid|NAT
+Emon Kumar Dey|EKD
+Sheikh Muhammad Sarwar|SMS
+Alim Ul Gias|AUG
+Md. Rayhanur Rahman|RR
+Asif Imran|AI
+Amit Seal Ami|ASA
+Md. Saeed Siddik|MSS
+Nadia Nahar|NAN
+Abdus Satter|AS
+Kishan Kumar Ganguly|KKG
+structured programming,programming|CSE101
+discrete mathematics,discrete math,discrete|CSE102
+probability and statistics for engineers I,statistics,probability and statistics,probability,probability & statistics|STAT103
+calculus and analytical geometry,math,calculus|MATH104
+sociology|GE105
+introduction to software engineering|SE106
+Object Oriented Concept I,oopI,oop|SE206
+Bangladesh Studies|GE212
+Computer Organization|CSE211
+Probability and Statistics for Engineers II,stat2,statistics2|STAT203
+Data Structure and Algorithm,algorithm,algo|CSE201 
+Ordinary Differential Equations,math|MATH204
+Combinatorial Optimization,optimization|CSE301
+Theory of computing|SE312
+Computer Networking,networking,net|CSE311
+Numerical Analysis for Engineers|MATH304
+Software Project Lab I,spl1|SE305
+Object Oriented Concept II,oop2,oopII|SE306
+|CSE403
+Database Management System I,database1,database|CSE404
+Software Requirements Specification and Analysis,srs|SE406
+Business Studies for Engineers|BUS405
+Business Psychology|GE402
+Operating System and System Programming|CSE401
+Professional Ethics for Information Systems,ethics|SE511
+Web technology|CSE502
+Business Communications|BUS503
+Database Management System II,database|CSE504
+Software Project Lab II,spl2|SE505
+Design Patterns,design pattern|SE506
+Software Testing and Quality Assurance,testing|SE605
+Management Information Systems,MIS|BUS602
+Software Design and Analysis,design|SE606
+ai,aritificial intelligence,artificial|CSE604
+Information Systems Ethics,ethics|GE603
+Distributed Systems|CSE601
+Internship,intern|SE701
+Computer Data and Network Security|CSE802
+|SE843
+Software Project Management|CSE803
+|CSE837
+|CSE823
+|BUS824
+|CSE825
+|BUS827
+|CSE829
+|CSE830
+|CSE831
+|CSE837
+|CSE839
+|CSE840
+|BUS842
+|CSE844
+

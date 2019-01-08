@@ -1,0 +1,13 @@
+Structural code to OOP:
+	Graphical Design Notation: CFG
+	Component-Based Development
+	CBSE process:
+		Domain Engineering
+
+		Software Engineering
+
+	M & H
+		-Conceptual: development er age SRS er pore jei architecture ta hoi
+		-Concrete: development er pore jei architechture pai
+		-Reference:Ekta project nia kaj korte jei engine/module gola lagbe tar design
+			for example: ekta browser banaite hole html engine,css engine, js engine, Network engine, data structure engine lagbe

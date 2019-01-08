@@ -1,0 +1,119 @@
+youtube link:https://www.youtube.com/watch?v=Nb1sinaTlmo
+hadoop commands:sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+#if get ERROR goto https://askubuntu.com/questions/790671/oracle-java8-installer-no-installation-candidate 
+
+java -version
+sudo addgroup hadoop
+sudo adduser --ingroup hadoop hduser
+
+in new terminal:
+sudo su root
+cd
+sudo gedit /etc/sudoers
+int gedit file:
+hduser ALL=(ALL:ALL) ALL
+In first terminal:
+sudo apt-get install openssh-server
+sudo su hduser
+cd
+ssh-keygen -t rsa -P ""
+cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+sudo gedit /etc/sysctl.conf
+#int sysctl.conf file add the followings:
+net.ipv6.conf.all.disable_ipv6 = 1 
+net.ipv6.conf.default.disable_ipv6 = 1 
+net.ipv6.conf.lo.disable_ipv6 = 1
+
+#copy to Desktop the downloaded file and extract
+sudo su hduser
+cd
+sudo mv #then drag the extracted folder to terminal and add the following# /usr/local/hadoop
+sudo chown hduser:hadoop -R /usr/local/hadoop
+sudo mkdir -p /usr/local/hadoop_tmp/hdfs/namenode
+sudo mkdir -p /usr/local/hadoop_tmp/hdfs/datanode
+sudo chown hduser:hadoop -R /usr/local/hadoop_tmp/
+sudo gedit .bashrc
+# add the following to bashrc file
+
+# -- HADOOP ENVIRONMENT VARIABLES START -- # 
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle 
+export HADOOP_HOME=/usr/local/hadoop/hadoop-2.7.7 
+export PATH=$PATH:$HADOOP_HOME/bin 
+export PATH=$PATH:$HADOOP_HOME/sbin 
+export HADOOP_MAPRED_HOME=$HADOOP_HOME 
+export HADOOP_COMMON_HOME=$HADOOP_HOME 
+export HADOOP_HDFS_HOME=$HADOOP_HOME 
+export YARN_HOME=$HADOOP_HOME 
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native 
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib" 
+export PATH=$PATH:/usr/local/hadoop/bin/ 
+# -- HADOOP ENVIRONMENT VARIABLES END -- #
+cd /usr/local/hadoop/etc/hadoop
+sudo gedit hadoop-env.sh
+#in this file comment the line "export JAVA_HOME=${JAVA_HOME}"
+#add " export JAVA_HOME='/usr/lib/jvm/java-8-oracle' " without quotation
+sudo gedit core-site.xml
+
+# in this xml file between <configuration> tag add the following
+#start
+<property>
+<name>fs.default.name</name>
+<value>hdfs://localhost:9000</value> 
+</property>
+#end
+sudo gedit hdfs-site.xml
+#in this file add between the configuration tag
+
+#start
+<property> 
+<name>dfs.replication</name> 
+<value>1</value> 
+</property> 
+<property> 
+<name>dfs.namenode.name.dir</name> 
+<value>file:/usr/local/hadoop_tmp/hdfs/n­amenode</value> 
+</property> 
+<property> 
+<name>dfs.datanode.data.dir</name> 
+<value>file:/usr/local/hadoop_tmp/hdfs/d­atanode</value> 
+</property> 
+
+#end
+
+sudo gedit yarn-site.xml
+#in this file add this within configuration tag
+
+#start
+<property> 
+<name>yarn.nodemanager.aux-services</name> 
+<value>mapreduce_shuffle</value> 
+</property> 
+<property> 
+<name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name> 
+<value>org.apache.hadoop.mapred.ShuffleHandler</value> 
+</property>
+#end
+
+cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template  /usr/local/hadoop/etc/hadoop/mapred-site.xml
+
+sudo gedit mapred-site.xml
+
+#in this file add inside <configuration> tag
+#start
+<property> 
+<name>mapreduce.framework.name</name> 
+<value>yarn </value> 
+</property>
+ 
+#end
+
+cd
+hdfs namenode -format
+cd /usr/local/hadoop/hadoop-2.7.7
+start-dfs.sh
+start-yarn.sh
+jps #to see if hadoop started correctly
+#goto localhost:8088
+

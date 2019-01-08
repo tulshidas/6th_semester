@@ -1,0 +1,242 @@
+INFO - Classpath is specified as lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;;.\public
+INFO - Real classpath = lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;
+INFO - Logging system initialized!
+INFO - Reading security policy file: C:\Program Files\Java\jre1.8.0_181\lib\security\java.policy
+INFO - Reading security policy file: C:\Users\Tulshi Das\.aglets\security\aglets.policy
+INFO - Loading shared secrets from file C:\Users\Tulshi Das\.aglets\security\secrets.dat
+INFO - No shared secret file.
+INFO - No secrets.
+INFO - USE SECURE RANDOM SEED.
+INFO - AUTHENTICATION MODE OFF.
+INFO - AgletThreadPool starting with 10 min threads
+INFO - AgletThreadPool ready
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Shutting down the Tahiti server
+INFO - shutting down.
+INFO - [terminating aglets.]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\tahiti.properties ]
+INFO - Classpath is specified as lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;;.\public
+INFO - Real classpath = lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;
+INFO - Logging system initialized!
+INFO - Reading security policy file: C:\Program Files\Java\jre1.8.0_181\lib\security\java.policy
+INFO - Reading security policy file: C:\Users\Tulshi Das\.aglets\security\aglets.policy
+INFO - Loading shared secrets from file C:\Users\Tulshi Das\.aglets\security\secrets.dat
+INFO - No shared secret file.
+INFO - No secrets.
+INFO - USE SECURE RANDOM SEED.
+INFO - AUTHENTICATION MODE OFF.
+INFO - AgletThreadPool starting with 10 min threads
+INFO - AgletThreadPool ready
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Shutting down the Tahiti server
+INFO - shutting down.
+INFO - [terminating aglets.]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\tahiti.properties ]
+INFO - Classpath is specified as lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;;.\public
+INFO - Real classpath = lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;
+INFO - Logging system initialized!
+INFO - Reading security policy file: C:\Program Files\Java\jre1.8.0_181\lib\security\java.policy
+INFO - Reading security policy file: C:\Users\Tulshi Das\.aglets\security\aglets.policy
+INFO - Loading shared secrets from file C:\Users\Tulshi Das\.aglets\security\secrets.dat
+INFO - No shared secret file.
+INFO - No secrets.
+INFO - USE SECURE RANDOM SEED.
+INFO - AUTHENTICATION MODE OFF.
+INFO - AgletThreadPool starting with 10 min threads
+INFO - AgletThreadPool ready
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Shutting down the Tahiti server
+INFO - shutting down.
+INFO - [terminating aglets.]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\tahiti.properties ]
+INFO - Classpath is specified as lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;;.\public
+INFO - Real classpath = lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;
+INFO - Logging system initialized!
+INFO - Reading security policy file: C:\Program Files\Java\jre1.8.0_181\lib\security\java.policy
+INFO - Reading security policy file: C:\Users\Tulshi Das\.aglets\security\aglets.policy
+INFO - Loading shared secrets from file C:\Users\Tulshi Das\.aglets\security\secrets.dat
+INFO - No shared secret file.
+INFO - No secrets.
+INFO - USE UNSECURE PSEUDO RANDOM SEED.
+INFO - AUTHENTICATION MODE OFF.
+INFO - AgletThreadPool starting with 10 min threads
+INFO - AgletThreadPool ready
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - Classpath is specified as lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;;.\public
+INFO - Real classpath = lib;lib\classes;lib\aglets-2.5-gamma.jar;lib\log4j-1.2.16.jar;
+INFO - Logging system initialized!
+INFO - Reading security policy file: C:\Program Files\Java\jre1.8.0_181\lib\security\java.policy
+INFO - Reading security policy file: C:\Users\Tulshi Das\.aglets\security\aglets.policy
+INFO - Loading shared secrets from file C:\Users\Tulshi Das\.aglets\security\secrets.dat
+INFO - No shared secret file.
+INFO - No secrets.
+INFO - USE UNSECURE PSEUDO RANDOM SEED.
+INFO - AUTHENTICATION MODE OFF.
+INFO - AgletThreadPool starting with 10 min threads
+INFO - AgletThreadPool ready
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - saving properties into [file:C:\Users\Tulshi Das\.aglets\users\aglet_key\aglets.properties ]
+INFO - Creating ResourceManager.
+INFO - The updateProxyInList method call is no longer required, since the AgletList class now stores proxies

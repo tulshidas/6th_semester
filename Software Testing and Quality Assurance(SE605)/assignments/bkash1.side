@@ -1,0 +1,117 @@
+{
+  "id": "7b0f925d-bcc8-4bc4-806e-f9f216d5d30c",
+  "version": "1.1",
+  "name": "bkash",
+  "url": "https://www.bkash.com",
+  "tests": [{
+    "id": "ead38988-f695-47f9-bfdc-270d735fe5bd",
+    "name": "bkash",
+    "commands": [{
+      "id": "f2aabb4f-e62f-4bfe-9a6a-6625459f5ed0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e071fca5-3be3-4228-b99e-9d2957da0c3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c17426e7-839d-43bb-a6cc-bb58a071105c",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-search-block-form--2",
+      "targets": [
+        ["id=edit-search-block-form--2", "id"],
+        ["name=search_block_form", "name"],
+        ["css=#edit-search-block-form--2", "css"],
+        ["css=#edit-search-block-form--2", "css:finder"],
+        ["xpath=//input[@id='edit-search-block-form--2']", "xpath:attributes"],
+        ["xpath=//form[@id='search-block-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08a830c6-b11d-4c3d-bb4e-9382c05825f9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-search-block-form--2",
+      "targets": [
+        ["id=edit-search-block-form--2", "id"],
+        ["name=search_block_form", "name"],
+        ["css=#edit-search-block-form--2", "css"],
+        ["css=#edit-search-block-form--2", "css:finder"],
+        ["xpath=//input[@id='edit-search-block-form--2']", "xpath:attributes"],
+        ["xpath=//form[@id='search-block-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cash out"
+    }, {
+      "id": "2413f31d-363b-4d07-9d8e-e7ad0f0b7ebd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ATM Cash Out Service Unavailability",
+      "targets": [
+        ["linkText=ATM Cash Out Service Unavailability", "linkText"],
+        ["css=dt.title > a", "css"],
+        ["css=.title:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ATM Cash Out Service Unavailability')]", "xpath:link"],
+        ["xpath=//div[@id='content']/dl/dt/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bkash.com/news/atm-cash-out-service-unavailability')]", "xpath:href"],
+        ["xpath=//dt/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2ad977-9ce3-439a-96bd-92480a8e8258",
+      "comment": "",
+      "command": "click",
+      "target": "css=img.test.site-logo",
+      "targets": [
+        ["css=img.test.site-logo", "css"],
+        ["css=.test", "css:finder"],
+        ["xpath=//img[@alt='bkash']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17bab66b-c86a-4ed7-a956-5b0b3e262175",
+      "comment": "",
+      "command": "click",
+      "target": "css=.about .sdt_descr",
+      "targets": [
+        ["css=.about .sdt_descr", "css:finder"],
+        ["xpath=//ul[@id='sdt_menu']/li[2]/a/span[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f7655b1-350a-4640-ad9f-55e8068ebce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=img.img-responsive",
+      "targets": [
+        ["css=img.img-responsive", "css"],
+        ["css=.navbar-brand > .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='bkash logo']", "xpath:img"],
+        ["xpath=//div[@id='page-top']/header/nav/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "343f069b-969f-4fc4-a8ea-9dd64c1790ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ead38988-f695-47f9-bfdc-270d735fe5bd"]
+  }],
+  "urls": ["https://www.bkash.com/"],
+  "plugins": []
+}

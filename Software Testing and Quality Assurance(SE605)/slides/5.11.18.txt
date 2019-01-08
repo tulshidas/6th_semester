@@ -1,0 +1,18 @@
+
+Test suite.
+.
+.
+.
+test suit prioritization
+types of test case prioritization
+	1 set question hobe exam e ekhan theke
+	prioritization techniues
+	coverage based prioritization
+	Risk-based prioritization
+	prioritization based on requirement
+
+Measuring the effectiveness of a prioritization test suit
+ekta matrix die dibe equation ta die "APFD" ber korte hobe
+APFD
+APFD matrix theke optimum secquenc of test case ta ber korte hobe
+APFD Graph

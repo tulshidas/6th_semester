@@ -1,0 +1,230 @@
+{
+  "id": "be4bbf01-5788-4822-a3d5-6e08adeee26b",
+  "version": "1.1",
+  "name": "adobe1",
+  "url": "https://helpx.adobe.com",
+  "tests": [{
+    "id": "db2aa64e-a044-46ae-93b3-e717bd569df2",
+    "name": "adobe1",
+    "commands": [{
+      "id": "b325031c-37fb-4550-85c2-b9b9e4acc4c8",
+      "comment": "",
+      "command": "open",
+      "target": "/support.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baabb241-432f-470c-8b75-17a9f0dd6c36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=a.Gnav-action-login", "css"],
+        ["css=.Gnav-action-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//header[@id='AdobePrimaryNav']/nav/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1013d2-f828-44f1-a5d4-e409f90a9f80",
+      "comment": "",
+      "command": "click",
+      "target": "id=adobeid_username",
+      "targets": [
+        ["id=adobeid_username", "id"],
+        ["name=username", "name"],
+        ["css=#adobeid_username", "css"],
+        ["css=#adobeid_username", "css:finder"],
+        ["xpath=//input[@id='adobeid_username']", "xpath:attributes"],
+        ["xpath=//form[@id='adobeid_signin']/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce64183-8080-4d2d-8a9f-cc591ae03185",
+      "comment": "",
+      "command": "click",
+      "target": "id=adobeid_username",
+      "targets": [
+        ["id=adobeid_username", "id"],
+        ["name=username", "name"],
+        ["css=#adobeid_username", "css"],
+        ["css=#adobeid_username", "css:finder"],
+        ["xpath=//input[@id='adobeid_username']", "xpath:attributes"],
+        ["xpath=//form[@id='adobeid_signin']/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64da78d1-3e32-44bb-a4c1-7f028b33498c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=adobeid_username",
+      "targets": [
+        ["id=adobeid_username", "id"],
+        ["name=username", "name"],
+        ["css=#adobeid_username", "css"],
+        ["css=#adobeid_username", "css:finder"],
+        ["xpath=//input[@id='adobeid_username']", "xpath:attributes"],
+        ["xpath=//form[@id='adobeid_signin']/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6edd0c6-3d47-4c57-a529-cb60e295f223",
+      "comment": "",
+      "command": "click",
+      "target": "id=adobeid_username",
+      "targets": [
+        ["id=adobeid_username", "id"],
+        ["name=username", "name"],
+        ["css=#adobeid_username", "css"],
+        ["css=#adobeid_username", "css:finder"],
+        ["xpath=//input[@id='adobeid_username']", "xpath:attributes"],
+        ["xpath=//form[@id='adobeid_signin']/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8290d897-4a1b-4d3d-9884-da36c1f8d8e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=adobeid_password",
+      "targets": [
+        ["id=adobeid_password", "id"],
+        ["name=password", "name"],
+        ["css=#adobeid_password", "css"],
+        ["css=#adobeid_password", "css:finder"],
+        ["xpath=//input[@id='adobeid_password']", "xpath:attributes"],
+        ["xpath=//form[@id='adobeid_signin']/fieldset[2]/span/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/span/input", "xpath:position"]
+      ],
+      "value": "tldAdobe1"
+    }, {
+      "id": "262b3434-c96c-48e7-a5fa-3975645ee00b",
+      "comment": "",
+      "command": "submit",
+      "target": "id=adobeid_signin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e62b2422-b9ce-417c-a921-eaea7908a705",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.search-input-field",
+      "targets": [
+        ["css=input.search-input-field", "css"],
+        ["css=.magic-box-input > .search-input-field", "css:finder"],
+        ["xpath=//section[@id='search-section']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "adobe photoshop"
+    }, {
+      "id": "9f7161c7-80a3-4812-b36b-fa4f109328e8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.search-input-field",
+      "targets": [
+        ["css=input.search-input-field", "css"],
+        ["css=.magic-box-input > .search-input-field", "css:finder"],
+        ["xpath=//section[@id='search-section']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c66a2fb6-eeb3-4c30-9c2e-955f90f84f4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn & Support",
+      "targets": [
+        ["linkText=Learn & Support", "linkText"],
+        ["css=span.product-link > a", "css"],
+        ["css=.product-link:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn & Support')]", "xpath:link"],
+        ["xpath=//section[@id='main-search-section']/div/div/div[2]/div[2]/div/div/div[2]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/support/photoshop.html')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba4b7b91-9f4e-4fed-a330-52034ecbf33e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=what's new",
+      "targets": [
+        ["linkText=what's new", "linkText"],
+        ["css=p > a", "css"],
+        ["css=.grid-row > .banner-text-container a", "css:finder"],
+        ["xpath=//a[contains(@href, '/photoshop/using/whats-new.html')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a93616e-758f-47c5-b931-7a5784eb61d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.Profile-thumbnail",
+      "targets": [
+        ["css=a.Profile-thumbnail", "css"],
+        ["css=.Profile-thumbnail", "css:finder"],
+        ["xpath=//header[@id='AdobePrimaryNav']/nav/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60bbb6b0-d080-4c1a-93f8-c6c48644f9dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.Subnav-logo",
+      "targets": [
+        ["css=a.Subnav-logo", "css"],
+        ["css=.Subnav-logo", "css:finder"],
+        ["xpath=//div[@id='AdobeSecondaryNav']/nav/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//www.adobe.com/products/photoshop.html')])[2]", "xpath:href"],
+        ["xpath=//div/nav/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f089ec4-f5ad-4918-aae6-94412f53c73e",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.Profile-thumbnail",
+      "targets": [
+        ["css=a.Profile-thumbnail", "css"],
+        ["css=.Profile-thumbnail", "css:finder"],
+        ["xpath=//header[@id='AdobePrimaryNav']/nav/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2c965f2-2b83-416e-b438-617d33b2dfa7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Out",
+      "targets": [
+        ["linkText=Sign Out", "linkText"],
+        ["css=a.Profile-menu-link", "css"],
+        ["css=.Profile-menu-link", "css:finder"],
+        ["xpath=//header[@id='AdobePrimaryNav']/nav/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d007295-c168-42b2-a35c-248d539b9e7a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["db2aa64e-a044-46ae-93b3-e717bd569df2"]
+  }],
+  "urls": ["https://helpx.adobe.com/"],
+  "plugins": []
+}

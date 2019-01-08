@@ -1,0 +1,16 @@
+degree,iit,what,which,offer|degree|0.4,0.1|1
+bachelor,degree,iit,what,which,offer|bachelor,degree|0.4,0.1|2
+why,iit|why,iit|1.00,1.00|3
+what,iit,mean|iit,mean|1.00,0.1|4
+what,bsse,mean|1.00,0.1|5
+when,iit,establish,date,time|establish|0.6,0.1|
+when,iit,start,journey,date,time|journey,start|0.6,0.1|
+color,iit,what,building|color,building|0.75|
+director,iit,who,name,what|director|0.4,0.1|
+program,chair,chairman,iit,who,what,name|0.42,0.1|
+why,read,in,iit,admit,what,reason|read,in,iit|0.57|
+mission,iit,what|mission|0.6,0.1|
+vision,iit,what|vision|0.6,0.1|
+about,iit,say,something,information|about,iit|0.4,0.1|
+
+

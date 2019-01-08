@@ -1,0 +1,17 @@
+Cloud disclaimers:
+	NIST defintion:
+
+Create a new house : infructure as a service
+	akta server demmand thakle eta korte hobe
+Buy a empty house: plateform as a service
+	application hosting envronment e control thakbe
+Live in a hotel: software as a service
+	example: gmail,google docs
+
+Deployment model:
+	public cloud: sobai eccess pai
+	private: for specific a organizaion
+	community cloud: group of organizaions makes this
+	Hybrid cloud: combination of all types, ex:amazon
+	difference beteen Public vs Private[important]
+

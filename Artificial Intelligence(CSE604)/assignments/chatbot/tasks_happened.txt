@@ -1,0 +1,27 @@
+1.created page
+2.going developers.facebook.com
+3.cliking on upper right corner button beside the search button
+4.then creating messenger and add page
+5. installing python
+6. adding the path of python to environment variable
+7. run in cmd: "python -m pip install virtualenv"
+8. add the path of virtualenv to environment variable 
+      [in my case path is "C:\Users\User\AppData\Local\Programs\Python\Python36-32\Scripts"]
+
+9. run command in cmd:
+     - myenv\Scripts\activate
+     - python -m pip install flask requests pymessenger
+10. goto https://ngrok.com/download and downlaod ngrok by
+         cliking button Download for windows
+11. run command in cmd: ngrok http 80
+   it will show online localhost address[my localhost address:http://8f22c327.ngrok.io]
+12. localhost is not giving permission to port 80
+    so default port to 81 the in D:\xampp\apache\conf\httpd.conf file 
+    and run in cmd 
+      -ngrok http 81
+13. use https in facebook website to iitbot setting
+14. downloaded the updated app.py file
+15. heroku app info: https://safe-spire-30130.herokuapp.com/ | https://git.heroku.com/safe-spire-30130.git
+
+    
+   

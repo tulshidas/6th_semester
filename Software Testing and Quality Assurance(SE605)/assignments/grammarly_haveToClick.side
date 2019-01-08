@@ -1,0 +1,172 @@
+{
+  "id": "71db3616-b0e4-4fbf-9fe8-af39e268887c",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://www.grammarly.com",
+  "tests": [{
+    "id": "62d11af1-ec46-413a-bd73-8c11786f01e1",
+    "name": "Untitled",
+    "commands": [{
+      "id": "5b722998-3dba-4eb5-9011-81a7bf672d53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23422f7f-6f17-4201-9b24-2891e20ab201",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=a", "css"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/div/div[2]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signin?allowUtmParams=true')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "729803ba-73c9-44b2-bd83-2431d31a43f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input._2IV5P-_-_-client-guidelines-input_field--input_field-input",
+      "targets": [
+        ["css=input._2IV5P-_-_-client-guidelines-input_field--input_field-input", "css"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ace13459-f831-4fe2-aa6a-3659aa689fa4",
+      "comment": "",
+      "command": "type",
+      "target": "css=input._2IV5P-_-_-client-guidelines-input_field--input_field-input",
+      "targets": [
+        ["css=input._2IV5P-_-_-client-guidelines-input_field--input_field-input", "css"],
+        ["xpath=//input[@value='tulshidas37@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tulshidas37@gmail.com"
+    }, {
+      "id": "f06260ba-06a3-4ec3-b88e-a7fb8a4b973e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@value='tldgrammarly']",
+      "targets": [
+        ["xpath=//input[@value='tldgrammarly']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/form/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "tldgrammarly"
+    }, {
+      "id": "986012e1-03d3-4ed5-aaa8-f85e98e37fe6",
+      "comment": "",
+      "command": "click",
+      "target": "css=span._385yy-_-_-client-guidelines-button--button-submitButtonContent",
+      "targets": [
+        ["css=span._385yy-_-_-client-guidelines-button--button-submitButtonContent", "css"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/form/div/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "723ec648-a0be-4599-9697-4662594de84b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div._c9ce55-item._c9ce55-profile > a._c9ce55-link > span",
+      "targets": [
+        ["css=div._c9ce55-item._c9ce55-profile > a._c9ce55-link > span", "css"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d842c5b-9f33-4fc4-b396-250af0d393da",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"text\"]",
+      "targets": [
+        ["css=input[type=\"text\"]", "css"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div[2]/div[4]/div/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5343ce00-ea36-497f-b03f-96b1ed246bf2",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type=\"text\"]",
+      "targets": [
+        ["css=input[type=\"text\"]", "css"],
+        ["xpath=//input[@value='hello world']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div[2]/div[4]/div/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello world"
+    }, {
+      "id": "1727e1f7-6735-481a-bf8c-18608b5f5892",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input[type=\"text\"]",
+      "targets": [
+        ["css=input[type=\"text\"]", "css"],
+        ["xpath=//input[@value='hello world']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div[2]/div[4]/div/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a320a44e-d653-4a12-aa2e-0b3b0d71d31e",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[type=\"text\"]",
+      "targets": [
+        ["css=input[type=\"text\"]", "css"],
+        ["xpath=//input[@value='hello']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div[2]/div[4]/div/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "53214417-e94f-499f-a902-579d7e206171",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input[type=\"text\"]",
+      "targets": [
+        ["css=input[type=\"text\"]", "css"],
+        ["xpath=//input[@value='hello']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div/div/div/div[2]/div[4]/div/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "30520f65-ffc0-4a4d-94c1-9533eafe2294",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=div._c9ce55-logout._c9ce55-item > a._c9ce55-link", "css"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div/div/div/div/div/div/div/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4ccca148-ab70-466a-8e1c-40d8c0dcc2fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62d11af1-ec46-413a-bd73-8c11786f01e1"]
+  }],
+  "urls": ["https://www.grammarly.com/"],
+  "plugins": []
+}

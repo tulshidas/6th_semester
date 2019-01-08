@@ -1,0 +1,20 @@
+Application software is the need of organisation not system
+it is assumed that system software is ready
+functional information system are different for account management,HR management,finance management
+Enterprise application interacts with the whole management including all management system for all sector
+Big management er jonno Database is essential issue
+what is Big Data? : Big Volume, variety,velocity,
+Bussiness infomation e Big data r necessecity ki? decission making/bussiness intelligence e important
+Big data poraini sir.
+Database Development er jonno bussiness process ta jana lagbe
+form fill up, seat plane, taka joma, subject choice, eigula ekekta process
+process analysis kore database development kora lage
+Er, CNF eigula database er performance related
+Data Warehouses:
+What is Data Warehouses?
+Application and Data Marts:
+Data Mining:
+WireLess Technologies:
+Bussiness Value of the Internet: how an technology can contribute to my bussiness
+Value of Telecommunications Networks:
+Intranet, Extranet,VPN, Client/Server

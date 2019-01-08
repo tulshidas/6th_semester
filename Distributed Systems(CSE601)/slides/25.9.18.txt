@@ -1,0 +1,4 @@
+1. CORBA table ta porano hoise.(161 page, section 4.3)
+2. Marshalling and demarshalling
+3. Serialising
+

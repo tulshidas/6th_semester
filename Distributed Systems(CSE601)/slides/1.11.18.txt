@@ -1,0 +1,5 @@
+page 605
+Figure 14.4 Messages exchanged between a pair of NTP peers
+Figure 14.5 Events occurring at three processes
+
+WORK: Cloudera die hadoop chalaite hobe agami mongolbarer modde

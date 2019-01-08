@@ -1,0 +1,93 @@
+{
+  "id": "f1625be5-4ffc-4603-9a0e-e3261cbc74f3",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "http://103.221.253.35",
+  "tests": [{
+    "id": "8cace916-4693-4916-9af5-4e3e2218d27c",
+    "name": "Untitled",
+    "commands": [{
+      "id": "82c486fc-1e6f-439a-8615-41f6d6b71849",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a15e01da-9833-4277-ad9a-76cca51c6769",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97ce467f-e199-476b-bbc7-d7e675ca6d27",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bsse0811@iit.du.ac.bd"
+    }, {
+      "id": "d5fa2c0b-e9bb-4d2b-9379-300b19acbe96",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=input[name=\"pass\"]", "css"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tldiithome"
+    }, {
+      "id": "f306b21d-938a-442f-b040-f8e9158e6097",
+      "comment": "",
+      "command": "click",
+      "target": "name=btn-login",
+      "targets": [
+        ["name=btn-login", "name"],
+        ["css=button[name=\"btn-login\"]", "css"],
+        ["xpath=//button[@name='btn-login']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4524f5f-7c22-4b5d-8d85-67a0e4fe0d0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul.dropdown-menu > li > a",
+      "targets": [
+        ["css=ul.dropdown-menu > li > a", "css"],
+        ["xpath=//a[contains(text(),'Sign Out')]", "xpath:link"],
+        ["xpath=//div[@id='logo']/div[2]/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'logout.php?logout')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1ff17b67-2584-4382-baed-31b7c679f5b3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8cace916-4693-4916-9af5-4e3e2218d27c"]
+  }],
+  "urls": ["http://103.221.253.35/"],
+  "plugins": []
+}

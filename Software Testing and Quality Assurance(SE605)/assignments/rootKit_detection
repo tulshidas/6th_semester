@@ -1,0 +1,14 @@
+root kit detection:
+current directory: /var/ossec#
+commands:
+./bin/ossec-control start
+
+1. ./bin/agent_control -lc    #show the list of active agent
+2. tail -f logs/alerts/alerts.log   #show the last alerts
+in a new terminal using root
+3. git clone https://github.com/CCrashBandicot/shv5.git
+4. cd shv5
+5. chmod 777 setup
+6. ./setup
+at the first terminal
+7. ./bin/agent_control -r -u 000

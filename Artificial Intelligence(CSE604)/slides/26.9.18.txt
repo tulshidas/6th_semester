@@ -1,0 +1,10 @@
+1.Wisdom of the crowd:
+2. Ensemble learning: eki test case er jonno ekadik algorithm suse kora
+3. boostrap: randomly ekadik training data nie ja toiri hoi
+4. bagging: combining data from different boostrap
+resamble: sample theke sample newa
+Occam's theorem: the assumption which costs less is more acceptable
+No free lunch: free kono kichu hoina. sob ghotonar pichone ekta uddesso thake.
+Diagonal separable hole decission tree valo result dei na.
+nearest gulo same character er na hole k-nearest valo result dei na
+Rhine Paradox: some people has extra. When you tell their extra feature it wil not work.

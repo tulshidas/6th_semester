@@ -1,0 +1,12 @@
+1."UDP" is the client project and "UDPServer" is ther server project
+2.keep the two project in two different workspace folder 
+  and open two eclipse window in this two workspace.
+3. then import the projects in eclipse.
+ 	if any problem when import the projects, then create a new 
+        java project with the same project name, it will import the 
+	existing project automatically
+
+4.then run the UDPServer.java file of "UDPServer" project
+    and then run the client.java file of "UDP"
+5.then give input in console as follows in run time. 
+  	

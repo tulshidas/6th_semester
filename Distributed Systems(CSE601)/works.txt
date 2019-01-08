@@ -1,0 +1,5 @@
+1. Ek server e multiple client theke pathano jai kina
+2. multiple datagram eki sathe pathano jai kina
+   i. port vs socket
+   ii. Datagram, port , socket
+   

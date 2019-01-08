@@ -1,0 +1,21 @@
+Component level design: starts with class
+ problem domaim class: related to problem
+ infrastructural class: related to database or ant but not problem
+
+ Collaboration details: kon class kon class ke call kore ta identify kora
+ guard conditions: call korar jonno kono condition ase kina
+ sequence expression: konta ke age call dibe er number
+ message name: mathod name
+ independent call hole dotakei 1 die dewa jabe
+Appropriate Interface:
+ Elaborate Attribute:
+ Breaking god class to different class
+ Processing flow:activity diagram for a mathod, besi complex hole kora lage, onnothai developer buje nibe
+Persistent Data: Data management er jonno jesob class lage
+Elaborate Behavior: 
+ State transition diargram
+ ekta state er obossoi ekadik mathod thakbe
+ entry hocche je method die state e dhuke
+ exit hocche je mathod die state theke ber hoi
+Elaboration Deployment diagram: ekta project er different task different server e assign kora hoite pare. 
+		jemon ek server e database, onno server e web project host kora lage.

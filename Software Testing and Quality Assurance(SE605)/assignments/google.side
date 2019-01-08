@@ -1,0 +1,65 @@
+{
+  "id": "1265027c-3dc7-42bf-a085-8330b5cdb952",
+  "version": "1.1",
+  "name": "google",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "72a47b83-19b6-4fe0-a729-3472a7110e7b",
+    "name": "test1",
+    "commands": [{
+      "id": "e74fc4f7-451c-4993-af03-3a40b25920a2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fda7c34-4167-4eb5-9213-46f8c76b0e41",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3bcf3c4-6d8c-48be-b521-3f8d753ea7cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=lst-ib",
+      "targets": [
+        ["id=lst-ib", "id"],
+        ["name=q", "name"],
+        ["css=#lst-ib", "css"],
+        ["css=#lst-ib", "css:finder"],
+        ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "tulshidas37@gmail.com"
+    }, {
+      "id": "b732938e-abe2-4efb-a3d7-5e5a2bc6b150",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=lst-ib",
+      "targets": [
+        ["id=lst-ib", "id"],
+        ["name=q", "name"],
+        ["css=#lst-ib", "css"],
+        ["css=#lst-ib", "css:finder"],
+        ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "fe3714b3-bfef-4c42-8a07-1b55e8259d5d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["72a47b83-19b6-4fe0-a729-3472a7110e7b"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

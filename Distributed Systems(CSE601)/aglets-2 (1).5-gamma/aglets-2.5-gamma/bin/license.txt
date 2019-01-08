@@ -1,0 +1,3 @@
+This product and its source code is released under the IBM Public License Version 1.0.
+To get more informations, please visit http://www.opensource.org/licenses/ibmpl.php
+A verbatim copy of the license is included in the root directory of the project as a text file.

@@ -1,0 +1,27 @@
+link:https://ossec-docs.readthedocs.io/en/latest/manual/installation/installation-requirements.html#ubuntu
+#sudo su -
+#apt-get update
+#apt-get install build-essential apache2 libapache2-mod-php5 apache2-utils
+goto: https://github.com/ossec/ossec-hids/archive/3.1.0.tar.gz
+#tar xfz ossec-hids-3.1.0
+#cd ossec-hids-3.1.0/
+#./install.sh
+->en
+->local
+->'enter'
+->'enter'
+->bsse0811@iit.du.ac.bd
+->enter enter to the next all
+goto:https://github.com/ossec/ossec-wui/archive/0.9.tar.gz
+#tar xfz ossec-wui-0.9.tar.gz
+#mv ossec-wui-0.9 /var/www/html/ossec-wui/
+#cd /var/www/html/ossec-wui/
+#./setup.sh
+->ubuntu
+->tldossec
+->tldossec
+->www-data
+#/var/ossec/bin/ossec-control start
+#chown -R www-data:www-data /var/www/html/ossec-wui/
+#service apache2 restart
+goto:http://localhost/ossec-wui/
