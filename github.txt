@@ -17,7 +17,7 @@
 # git remote add origin https://github.com/tulshidas/test.git //here test is the name of repository, it add the repository with local
 #git push -u origin master //it push
 #git push origin <anothre branch name> //push the files from this branch after add,commit
-#git branch -D <branch name>
+#git branch -D <branch name>//
 #git add *.html // add all html files
 #git rm <file name> //delete a file
 #git log // show the logs of changes
@@ -28,6 +28,21 @@
 #git remote update //get status of change in remote. to see I should use git status command.
 #git pull origin master // this will pull the changes to local repository
 ##git fetch origin // git remote update command er motoi kaj kore
+#git remote rm origin // it removes the added remote repository
+.............Remove logged git account(actual remove the cached username password)..........
+#git config --global --unset credential.helper
+#git config --system --unset credential.helper
+.............#....................
+#git checkout -b <BRANCH_NAME>// create a branch locally and immediately switch to it.
+#git push origin <BRANCH_NAME>//this will push to the branch and if branch not exist then it will be created automatically.
+#git remote show origin // will show the origin url
+#git pull origin master--rebase// pull and resolves conflicts
+#git reset --soft HEAD~1 // to uncommit the last commit, to uncommit more we have to increament number as the HEAD~2, HEAD~3...
+#git reset HEAD "path/to/unwanted_file" // this will unstage the file to specied path. then we can commit as we wish.
+#git remote set-url  origin <new url of repo> // change the value of origin
+#git stash save --keep-index --include-untracked // delete the unstaged changes
+
+
 
 .........LFS commands............
 Git LFS commands(after creating and config git reposotory):
@@ -37,10 +52,12 @@ Git LFS commands(after creating and config git reposotory):
 #git commint -m "commit message here" // will commit the tracking files
 #git lfs ls-files // show the list of tracked files
 #touch <file name> // create a file
-
+#git branch -a // show the branches after pulling repository.
+#git pull --all // to pull repo. with all branch
 
 
 .........UNIX commands........
 #pwd //show the current directory
 #ls dile current files and folders gula dekhai
 #cd <directory name> // change directory
+#curl -o languages.csv https://raw.githubusercontent.com/forxer/languages-list/master/src/Languages.csv// save the raw linked file
