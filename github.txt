@@ -32,7 +32,7 @@
 .............Remove logged git account(actual remove the cached username password)..........
 #git config --global --unset credential.helper
 #git config --system --unset credential.helper
-#git add -u [folder or files or nothing ]//
+#git add -u [folder or files or nothing ]//stage deletion,new git e git add . dilei hoie jai
 .............#....................
 #git checkout -b <BRANCH_NAME>// create a branch locally and immediately switch to it.
 #git push origin <BRANCH_NAME>//this will push to the branch and if branch not exist then it will be created automatically.
