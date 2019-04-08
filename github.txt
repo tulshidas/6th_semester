@@ -39,10 +39,12 @@
 #git remote show origin // will show the origin url
 #git pull origin master--rebase// pull and resolves conflicts
 #git reset --soft HEAD~1 // to uncommit the last commit, to uncommit more we have to increament number as the HEAD~2, HEAD~3...
+#git reset HEAD~1 // will uncommit and unstage the last commit
 #git reset HEAD "path/to/unwanted_file" // this will unstage the file to specied path. then we can commit as we wish.
 #git remote set-url  origin <new url of repo> // change the value of origin
 #git stash save --keep-index --include-untracked // delete the unstaged changes
 #git stash -u // discard all unstaged changes
+#git revert <commit id> // will uncommit from pushed commit to latest commit
 
 
 
