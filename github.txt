@@ -42,6 +42,7 @@
 #git reset HEAD "path/to/unwanted_file" // this will unstage the file to specied path. then we can commit as we wish.
 #git remote set-url  origin <new url of repo> // change the value of origin
 #git stash save --keep-index --include-untracked // delete the unstaged changes
+#git stash -u // discard all unstaged changes
 
 
 
