@@ -31,7 +31,8 @@
 #git remote rm origin // it removes the added remote repository
 .............Remove logged git account(actual remove the cached username password)..........
 #git config --global --unset credential.helper
-#git config --system --unset credential.helper
+#git config --system --unset credential.helper// if permission error occurs, then run cmd as administrator
+//or I can remove 'helper=manager' option in C:\Program Files\Git\mingw64\etc\gitconfig file
 #git add -u [folder or files or nothing ]//stage deletion,new git e git add . dilei hoie jai
 .............#....................
 #git checkout -b <BRANCH_NAME>// create a branch locally and immediately switch to it.
